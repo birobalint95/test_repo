@@ -84,8 +84,8 @@ body {
 .switch {
   position: relative;
   display: inline-block;
-  width: 48px;
-  height: 20px;
+  width: 60px;
+  height: 34px;
 }
 /* Hide default HTML checkbox */
 .switch input {
@@ -108,8 +108,8 @@ body {
 .slider:before {
   position: absolute;
   content: "";
-  height: 12px;
-  width: 12px;
+  height: 26px;
+  width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: var(--toggler-color);
