@@ -18,7 +18,7 @@
   --text-color: #efefef;
   --toggler-color: #444352;
   --switch-on-color: #fff;
-  --switch-off-color: #e6ff1a;
+  --switch-off-color: #c3bb16;
 }
 
 * {
@@ -154,7 +154,7 @@ input:checked + .slider:before {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #475569;
+      background-color: var(--switch-off-color);
       border-radius: 40px;
       cursor: pointer;
     }
@@ -180,3 +180,7 @@ input:checked + .slider:before {
 .checkbox:checked + .toggle-thumb:before {
       transform: translateX(26px);
     }
+
+input:checked + .toggle-thumb {
+  background-color: var(--switch-on-color);
+}
