@@ -27,7 +27,7 @@
   transition: color .45s ease-in;
 }
 
-
+/* customize the body */
 body {
   display: flex;
   height: 100vh;
@@ -35,7 +35,7 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
+/* customize the container */
 .container {
   height: 100vh;
   width: 100vw;
@@ -43,12 +43,12 @@ body {
   background-color: var(--body-bg-color);
   transition: background-color .45s ease-in;
 }
-
+/* customize the inner content wrapper */
 .inner-wrapper {
   width: 500px;
   margin: auto;
 }
-
+/* customize the controller-row */
 .controller-row {
   text-align: right;
 }
@@ -63,17 +63,6 @@ body {
   background-color: var(--card-bg-color);
   transition: background-color .45s ease-in,
               box-shadow-color .45s ease-in;
-}
-.card__header,
-.card__body {
-  padding: 0 10px;
-}
-.__title {
-  font-size: 20px;
-  font-weight: 600;
-}
-.__detail {
-  font-size: 18px;
 }
 
 /*
