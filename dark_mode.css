@@ -46,7 +46,7 @@ body {
 /* customize the inner content wrapper */
 .inner-wrapper {
   width: 500px;
-  margin: auto;
+  margin: 16px auto auto;
 }
 /* customize the controller-row */
 .controller-row {
