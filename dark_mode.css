@@ -238,11 +238,6 @@ input:checked + .toggle-thumb {
 }
 
 .menu {
-  position: absolute;
-  left: 50%;
-  margin-left: -80px;
-  padding-top: 20px;
-  padding-left: 80px;
   width: 650px;
   height: 150px;
   box-sizing: border-box;
