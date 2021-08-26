@@ -188,9 +188,7 @@ input:checked + .toggle-thumb {
   border-radius: 100%;
   width: 80px;
   height: 80px;
-  margin-left: -40px;
   position: absolute;
-  top: 20px;
   color: white;
   text-align: center;
   line-height: 80px;
