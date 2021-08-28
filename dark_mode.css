@@ -42,6 +42,7 @@ body {
   display: flex;
   background-color: var(--body-bg-color);
   transition: background-color .45s ease-in;
+  overflow: auto;
 }
 /* customize the inner content wrapper */
 .inner-wrapper {
