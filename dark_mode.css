@@ -191,7 +191,7 @@ html {
 
 .thought-bubble {
 	 font-size: 1.25em;
-	 border-radius: 1rem;
+	 border-radius: 1em;
 	 box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
 }
 
