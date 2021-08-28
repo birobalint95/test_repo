@@ -213,6 +213,7 @@ html {
 	 align-items: center;
 	 gap: 1rem;
 	 cursor: pointer;
+	outline: none;
 }
 
 details summary::-webkit-details-marker {
@@ -231,14 +232,4 @@ details[open], details:hover {
   padding: 1.5em;
   padding-top: 0;
   margin: 0;
-}
-
-.noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: transparent;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
