@@ -202,7 +202,7 @@ html {
 
 .content-of-thought {
 	 color: black;
-	 background-color: #ffffff;
+	 background-color: var(--card-bg-color);
 	 border-radius: 1em;
 }
 
