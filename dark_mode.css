@@ -234,5 +234,5 @@ details[open], details:hover {
   margin: 0;
   font-size: 0.8em;
   max-height: 300px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
