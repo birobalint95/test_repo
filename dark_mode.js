@@ -22,6 +22,6 @@ function selectNavElement(clicked_id) {
   clickedElement.classList.add("selected");
     
   var contentToHide = document.getElementById(clicked_id + " " + "content");
-  contentToHide.style.display = "none";
+  contentToHide.style.display = "block";
   };
 }
