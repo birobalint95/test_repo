@@ -21,8 +21,7 @@ function selectNavElement(clicked_id) {
     });
   clickedElement.classList.add("selected");
     
-    var x = document.getElementById(clicked_id + " " + "content");
-    console.log(x);
-    
+  var contentToHide = document.getElementById(clicked_id + " " + "content");
+  contentToHide.style.display = "none";
   };
 }
