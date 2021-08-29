@@ -19,9 +19,9 @@ function selectNavElement(clicked_id) {
     [].forEach.call(allNavElements, function(actualNavElement) {
       actualNavElement.classList.remove("selected");
     });
+      
   clickedElement.classList.add("selected");
-    
-  var contentToHide = document.getElementById(clicked_id + " " + "content");
-  contentToHide.style.display = "block";
+  var contentToDisplay = document.getElementById(clicked_id + " " + "content");
+  contentToDisplay.style.display = "block";
   };
 }
