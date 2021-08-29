@@ -4,7 +4,6 @@
 :root, [data-theme="default"] {
   --body-bg-color: #fff;
   --card-bg-color: #fff;
-  --box-shadow-color: rgba(0,0,0,0.2);
   --text-color: #333;
   --switch-on-color: #444352;
   --switch-off-color: #ccc;
@@ -14,11 +13,10 @@
 [data-theme="dark"] {
   --body-bg-color: #444352;
   --card-bg-color: #545363;
-  --box-shadow-color: rgb(18, 18, 19, 0.2);
   --text-color: #efefef;
-  --toggler-color: #444352;
   --switch-on-color: #fff;
   --switch-off-color: #dcd31b;
+  --toggler-color: #444352;
 }
 
 * {
