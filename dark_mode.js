@@ -21,7 +21,7 @@ function selectNavElement(clicked_id) {
     });
   clickedElement.classList.add("selected");
     
-    var x = document.getElementById("thoughts content");
+    var x = document.getElementById("thoughts" + " " + "content");
     console.log(x);
     
   };
