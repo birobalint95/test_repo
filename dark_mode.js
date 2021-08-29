@@ -15,13 +15,17 @@ function selectNavElement(clicked_id) {
   var clickedElement = document.getElementById(clicked_id);
   var isElementSelected = clickedElement.classList.contains("selected");
   var allNavElements = document.getElementsByClassName("nav-item");
+  var allMainContentElements = document.getElementsByClassName("main-content");
   if (! isElementSelected) {
     [].forEach.call(allNavElements, function(actualNavElement) {
       actualNavElement.classList.remove("selected");
     });
+    [].forEach.call(allMainContentElements, function(actualMainContentElement) {
+      actualMainContentElement.style.display = "none";
+    });
       
   clickedElement.classList.add("selected");
-  var contentToDisplay = document.getElementById(clicked_id + " " + "content");
+  var contentToDisplay = document.getElementById(clicked_id + " " + "main-content");
   contentToDisplay.style.display = "block";
   };
 }
