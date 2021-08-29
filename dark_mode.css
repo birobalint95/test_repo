@@ -24,7 +24,7 @@
 * {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
-  /* transition: color .45s ease-in; */
+  transition: color .45s ease-in;
 }
 
 /* customize the body */
@@ -285,10 +285,12 @@ details[open], details:hover {
   text-decoration: none;
 }
 
+/*
 #main-navbar li a:hover {
   padding-bottom: 3px;
   color: rgba(81, 203, 238, 1);
 }
+*/
 
 .nav-item {
   color: #fff;
