@@ -196,6 +196,9 @@ details[open], details:hover {
 	 background-color: rgba(81, 203, 238, 1);
 }
 
+#main-navbar ul {
+  padding-inline-start: 0px;
+}
 
 #main-navbar li a:focus, a:hover {
 	color: rgba(81, 203, 238, 1);
