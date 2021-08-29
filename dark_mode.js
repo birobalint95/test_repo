@@ -10,3 +10,15 @@ document.getElementById('toggler2').addEventListener('change', (event) => {
     currentMode.innerHTML = "dark mode";
   };
 });
+
+function selectNavElement(clicked_id) {
+  var clickedElement = document.getElementById(clicked_id);
+  var isElementSelected = clickedElement.classList.contains("selected");
+  var allNavElements = document.getElementsByClassName("nav-item");
+  if (! isElementSelected) {
+    [].forEach.call(allNavElements, function(actualNavElement) {
+      actualNavElement.classList.remove("selected");
+    });
+  clickedElement.classList.add("selected");
+  };
+}
