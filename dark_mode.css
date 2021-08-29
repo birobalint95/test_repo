@@ -214,6 +214,10 @@ details[open], details:hover {
 	text-decoration: none;
 }
 
+.selected {
+  color: rgba(81, 203, 238, 1);
+}
+
 
 
 /*
