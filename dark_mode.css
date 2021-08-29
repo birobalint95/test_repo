@@ -202,6 +202,10 @@ details[open], details:hover {
 	text-decoration: none;
 }
 
+#main-navbar li a {
+	text-decoration: none;
+}
+
 /*
 #main-navbar ul {
   padding-inline-start: 0px;
