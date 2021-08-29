@@ -20,6 +20,6 @@ function selectNavElement(clicked_id) {
       actualNavElement.classList.remove("selected");
     });
   clickedElement.classList.add("selected");
-  clickedElement.style.color = "red";
+  // clickedElement.style.color = "red";
   };
 }
