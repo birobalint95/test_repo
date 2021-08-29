@@ -24,7 +24,7 @@
 * {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
-  transition: color .45s ease-in;
+  /* transition: color .45s ease-in; */
 }
 
 /* customize the body */
