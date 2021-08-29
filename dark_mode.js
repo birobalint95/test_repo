@@ -20,5 +20,9 @@ function selectNavElement(clicked_id) {
       actualNavElement.classList.remove("selected");
     });
   clickedElement.classList.add("selected");
+    
+    var x = document.getElementById("thoughts content");
+    console.log(x);
+    
   };
 }
