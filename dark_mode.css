@@ -272,6 +272,7 @@ details[open], details:hover {
 	 background-color: rgba(81, 203, 238, 1);
 }
 
+/*
 #main-navbar ul {
   padding-inline-start: 0px;
 }
@@ -285,7 +286,6 @@ details[open], details:hover {
   text-decoration: none;
 }
 
-/*
 #main-navbar li a:hover {
   padding-bottom: 3px;
   color: rgba(81, 203, 238, 1);
