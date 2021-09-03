@@ -29,3 +29,25 @@ function selectNavElement(clicked_id) {
   contentToDisplay.style.display = "block";
   };
 }
+
+
+var labelSelectorCheckboxes = document.getElementsByClassName("labelSelectorCheckbox");
+var thoughtBubbles = document.getElementsByClassName("thought-bubble");
+
+var myFunction = function(event) {
+	var checkboxText = event.target.getAttribute("value");
+	var indexOfThoughtBubble;
+	for (indexOfThoughtBubble = 0; indexOfThoughtBubble < thoughtBubbles.length; indexOfThoughtBubble++) {
+		if (thoughtBubbles[indexOfThoughtBubble].innerText.includes(checkboxText.toUpperCase())) {
+			if (event.target.checked) {
+				thoughtBubbles[indexOfThoughtBubble].style.display = "block";
+			} else {
+				thoughtBubbles[indexOfThoughtBubble].style.display = "none";
+			}
+		}
+	}
+};
+
+for (var i = 0; i < labelSelectorCheckboxes.length; i++) { 
+	labelSelectorCheckboxes[i].addEventListener('click', myFunction, false);
+}
