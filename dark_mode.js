@@ -47,7 +47,7 @@ var labelSelectorFunction = function(event) {
 		// define the text the warning message displays
 		noSelectedLabelWarningMessage.innerHTML = "No thoughts found. Please check if you have any of the labels selected above.";
 		// get label checkbox container element and append the warning message element to it
-		document.getElementById("label-checkbox-container").appendChild(noSelectedLabelWarningMessage);
+		document.getElementById("filter-bar").appendChild(noSelectedLabelWarningMessage);
 	} else {
 		// create the span element for the warning message of no selected label
 		var noSelectedLabelWarningMessage = document.getElementById("no-selected-label-warning-message");
