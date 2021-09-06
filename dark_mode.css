@@ -413,3 +413,33 @@ img {
 #svg-image {
   padding-right: 25px;
 }
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: -18px;
+    color: #fff;
+    content: attr(title);
+    left: 0%;
+    position: absolute;
+    z-index: 98;
+    width: 100px;
+    text-align: center;
+}
+
+.tooltip:hover:before{
+    border: solid; 
+    border-color: #333 transparent;
+    border-width: 0 6px 6px 6px;
+    left: 50px;
+    bottom: 0px;
+    content: "";
+    position: absolute;
+    z-index: 99;
+}
