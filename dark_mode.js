@@ -86,3 +86,10 @@ for (var i = 0; i < labelSelectorCheckboxes.length; i++) {
 	labelSelectorCheckboxes[i].addEventListener('click', labelSelectorFunction, false);
 }
 
+$(document).ready (function() {
+	$("#svg-image").hover (function() {
+		$("#list-svg-group").toggleClass("hide");
+		$("#downloadtray").toggleClass("downloadtray");	
+		$("#downloadarrow").toggleClass("downloadarrow");			
+	});
+});
