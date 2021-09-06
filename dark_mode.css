@@ -329,3 +329,87 @@ ul.ks-cboxtags li input[type="checkbox"] {
 .checkbox-text {
     padding-left: 10px;
 }
+
+/* INTRO-BAR */
+
+#rcorners1 {
+  display : flex;
+  justify-content: space-between;
+  border-radius: 200px;
+  background: gray;
+  padding: 20px; 
+  width: 80%;
+  height: 200px;
+  align-items : center;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+}
+
+.hide {opacity: 0;}
+#template {
+  display: inline-block;
+  fill: white;
+  stroke: #727272;
+  stroke-width: 10px;
+}
+#list-svg-group {
+  fill: white;
+  stroke: #727272;
+  stroke-width: 10px;
+}
+.list-svg-group {
+  animation: list-svg-group 1ms 0s ease 1 forwards;
+}
+@keyframes list-svg-group {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#downloadarrow {
+  fill: none;
+  stroke: #595959;
+  stroke-width: 10px;
+  opacity: 0;
+}
+.downloadarrow {
+  animation: downloadarrow 1s 0s infinite linear;
+}
+@keyframes downloadarrow {
+  0% {
+    opacity: 1;
+    transform: translateY(-60px);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateY(-20px);
+  }
+}
+#downloadtray {
+  fill: none;
+  stroke: #595959;
+  stroke-width: 10px;
+  opacity: 0;
+}
+.downloadtray {
+  animation: downloadtray 0.5s 0s ease 1 forwards;
+}
+@keyframes downloadtray {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+#svg-image {
+  padding-right: 25px;
+}
