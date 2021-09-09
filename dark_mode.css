@@ -443,3 +443,57 @@ img {
     position: absolute;
     z-index: 99;
 }
+
+
+
+
+
+
+
+
+
+.row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-box-orient: horizontal; 
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    flex-direction: row;
+
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    justify-content: space-between;
+
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;  
+    align-items: center;
+
+    background-color: gray;
+  
+    
+    border-top-left-radius: 85px;
+
+}
+
+.cell {
+
+    padding: 10px;
+    margin: 10px;
+
+    text-align: center;
+}
+.image2 {
+  max-height: 170px;
+  max-width:100%;
+}
+
+.avatar2 {
+  border-radius: 50%;
+}
+
