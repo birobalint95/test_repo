@@ -343,7 +343,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
   align-items : center;
 }
 
-img {
+.avatar-img {
   border-radius: 50%;
   width: 200px;
   height: auto;
