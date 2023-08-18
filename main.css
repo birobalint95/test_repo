@@ -1,7 +1,7 @@
 /*** importing css files ***/
 @import "dark_mode.css";
-@import "theme_variables.css";
-@import "theme_toggler.css";
+@import "themes.css";
+@import "thoughts.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet');
 
 * {
