@@ -23,7 +23,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 80vw;
-  max-width: 1000px;
+  max-width: 750px;
   position: relative;
   z-index: 0;
   margin-left: calc((80vw - 25px) / 6); }
@@ -53,7 +53,7 @@ body {
     background-color: #2C3E50;
     width: 13.33333vw;
     height: 5px;
-    max-width: 166.66667px; }
+    max-width: 125px; }
   
 .timeline-dot::before {
     left: calc(-13.33333vw + 12.5px); }
@@ -145,17 +145,17 @@ body {
 .timeline-dot[data-description="2000"]:checked ~ #timeline-descriptions-wrapper p[data-description="2000"] {
   display: block; }
 
-@media (min-width: 1250px) {
+@media (min-width: 937.5px) {
   .input-flex-container {
-    margin-left: 179.16667px; }
+    margin-left: 137.5px; }
   .timeline-dot::before {
-    left: -154.16667px; }
+    left: -112.5px; }
   .timeline-dot::after {
-    right: -154.16667px; }
+    right: -112.5px; }
   .dot-info {
-    left: calc((((1000px - 25px) / 6) * -1) - 1px); }
+    left: calc((((750px - 25px) / 6) * -1) - 1px); }
   #timeline-descriptions-wrapper {
-    margin-left: -154.16667px; } }
+    margin-left: -112.5px; } }
 
 @media (max-width: 630px) {
   .flex-parent {
