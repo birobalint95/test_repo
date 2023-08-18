@@ -1,3 +1,22 @@
+/*** Light Mode Theme ***/
+:root, [data-theme="default"] {
+  --body-bg-color: #fff;
+  --card-bg-color: #fff;
+  --text-color: #333;
+  --switch-on-color: #444352;
+  --switch-off-color: #ccc;
+  --toggler-color: #fff;
+}
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  --body-bg-color: #444352;
+  --card-bg-color: #545363;
+  --text-color: #efefef;
+  --switch-on-color: #fff;
+  --switch-off-color: #dcd31b;
+  --toggler-color: #444352;
+}
+
 .switch2 {
       display: inline-block;
       width: 60px;
