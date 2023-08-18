@@ -49,7 +49,3 @@ body {
   width: 750px;
   margin: 16px auto auto;
 }
-/* customize the controller-row */
-.controller-row {
-  text-align: right;
-}
