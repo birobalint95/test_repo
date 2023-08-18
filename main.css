@@ -1,3 +1,55 @@
-/*** Including one css file into other ***/
+/*** importing css files ***/
 @import "dark_mode.css";
 @import "theme_variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  transition: color .45s ease-in;
+}
+
+/* customize the body */
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+}
+/* customize the container */
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: var(--body-bg-color);
+  transition: background-color .45s ease-in;
+  overflow-y: auto;
+  direction: ltr;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+}
+
+.container::-webkit-scrollbar {
+	 width: 20px;
+}
+.container::-webkit-scrollbar-track {
+	 border-radius: 100px;
+}
+.container::-webkit-scrollbar-thumb {
+	 border-radius: 100px;
+	 border: 5px solid transparent;
+	 background-clip: content-box;
+	 background-color: rgba(81, 203, 238, 1);
+}
+
+
+/* customize the inner content wrapper */
+.inner-wrapper {
+  width: 750px;
+  margin: 16px auto auto;
+}
+/* customize the controller-row */
+.controller-row {
+  text-align: right;
+}
