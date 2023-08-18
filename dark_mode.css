@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet');
 
-/*** Light Mode Theme ***/
-:root, [data-theme="default"] {
-  --body-bg-color: #fff;
-  --card-bg-color: #fff;
-  --text-color: #333;
-  --switch-on-color: #444352;
-  --switch-off-color: #ccc;
-  --toggler-color: #fff;
-}
-/* Dark Mode Theme */
-[data-theme="dark"] {
-  --body-bg-color: #444352;
-  --card-bg-color: #545363;
-  --text-color: #efefef;
-  --switch-on-color: #fff;
-  --switch-off-color: #dcd31b;
-  --toggler-color: #444352;
-}
-
 * {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color);
