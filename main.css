@@ -1,2 +1,3 @@
 /*** Including one css file into other ***/
 @import "dark_mode.css";
+@import "theme_variables.css";
